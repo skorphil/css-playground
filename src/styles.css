@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 div#flexbox {
   display: flex;
   flex-direction: row;
@@ -9,6 +13,16 @@ div#flexbox {
   flex-wrap: wrap;
   background-color: lightblue;
   padding: 20px;
+}
+
+div#flexboxChild {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: rgb(8, 173, 57);
+  padding: 20px;
+  flex-grow: 1;
 }
 
 div#child {
